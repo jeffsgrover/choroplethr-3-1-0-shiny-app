@@ -25,7 +25,7 @@ shinyUI(fluidPage(
     ),
 
     mainPanel(
-      plotOutput("boxplot"),
+      #plotOutput("boxplot"),
       plotOutput("map_state"),
       plotOutput("map_county")
     )
